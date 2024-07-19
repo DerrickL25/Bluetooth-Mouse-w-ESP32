@@ -1,1 +1,1 @@
-everything works
+This project utilizes an ESP32-specific bluetooth protocol to communicate as a peripheral device (in this case, a mouse). Using the onboard IMU on the ESP32C3 RUST board, I developed a system to read gyroscopic feedback and control cursor movement with varying levels of speed. A client device, like a Raspberry PI 4 (used for testing) can connect to this mouse.
